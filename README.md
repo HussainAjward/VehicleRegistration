@@ -1,7 +1,7 @@
 # VehicleRegistration
 Vehicle Registration WEB Application
 
-##Tools and technologies used:
+## Tools and technologies used:
 - Frontend: React
 - Backend: Express
 - Database: MySQL
