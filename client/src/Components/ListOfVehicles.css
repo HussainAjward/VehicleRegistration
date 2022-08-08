@@ -1,0 +1,68 @@
+/*----------registered vehicles list----------*/
+
+.card-list {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 2px;
+    box-shadow: -1px 4px 28px 0px rgba(150, 150, 150, 0.4);
+}
+
+.card-header h2 {
+    color: #3FC060;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: #3FC060;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th, 
+.content-table td {
+    padding: 15px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #999;
+    color: #162328;
+    text-align: center;
+}
+
+.content-table tbody td button {
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #3FC060;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #3FC060;
+    transition: 0.6s;
+}
+
+.content-table tbody td button:hover {
+    background-position: 100% 0%;
+    background-color: #3FC060;
+    color: #ffffff;
+    border: 1px solid #3FC060;
+}
